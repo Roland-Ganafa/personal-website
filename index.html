@@ -7,7 +7,6 @@
     <link rel="stylesheet" href="styles.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.css" />
 </head>
 <body>
     <nav class="navbar">
@@ -15,77 +14,17 @@
             <div class="logo">GR</div>
             <ul class="nav-links">
                 <li><a href="#home">Home</a></li>
-                <li><a href="#about">About</a></li>
                 <li><a href="#services">Services</a></li>
-                <li><a href="#portfolio">Portfolio</a></li>
-                <li><a href="#testimonials">Testimonials</a></li>
-                <li><a href="#blog">Blog</a></li>
                 <li><a href="#contact">Contact</a></li>
             </ul>
-            <div class="menu-toggle">
-                <i class="fas fa-bars"></i>
-            </div>
         </div>
     </nav>
 
     <section id="home" class="hero">
-        <div class="hero-content" data-aos="fade-up">
-            <div class="profile-image">
-                <!-- Add your profile image here -->
-                <img src="assets/images/profile-placeholder.jpg" alt="Ganafa Roland">
-            </div>
+        <div class="hero-content">
             <h1>Ganafa Roland</h1>
             <p class="tagline">Digital Innovation & Professional Services</p>
-            <div class="hero-buttons">
-                <a href="#services" class="cta-button">Explore Services</a>
-                <a href="#portfolio" class="cta-button secondary">View Portfolio</a>
-            </div>
-        </div>
-    </section>
-
-    <section id="about" class="about">
-        <div class="container">
-            <h2 data-aos="fade-up">About Me</h2>
-            <div class="about-content">
-                <div class="about-text" data-aos="fade-right">
-                    <p>I am a versatile professional with expertise in digital innovation, design, and technology. With years of experience in delivering high-quality solutions, I help businesses and individuals achieve their goals through various professional services.</p>
-                    <div class="stats">
-                        <div class="stat-item">
-                            <h3>5+</h3>
-                            <p>Years Experience</p>
-                        </div>
-                        <div class="stat-item">
-                            <h3>100+</h3>
-                            <p>Projects Completed</p>
-                        </div>
-                        <div class="stat-item">
-                            <h3>50+</h3>
-                            <p>Happy Clients</p>
-                        </div>
-                    </div>
-                </div>
-                <div class="skills" data-aos="fade-left">
-                    <h3>Skills</h3>
-                    <div class="skill-bars">
-                        <div class="skill">
-                            <span>Digital Marketing</span>
-                            <div class="progress-bar"><div class="progress" style="width: 90%"></div></div>
-                        </div>
-                        <div class="skill">
-                            <span>Graphic Design</span>
-                            <div class="progress-bar"><div class="progress" style="width: 85%"></div></div>
-                        </div>
-                        <div class="skill">
-                            <span>App Development</span>
-                            <div class="progress-bar"><div class="progress" style="width: 80%"></div></div>
-                        </div>
-                        <div class="skill">
-                            <span>AI & Prompt Engineering</span>
-                            <div class="progress-bar"><div class="progress" style="width: 95%"></div></div>
-                        </div>
-                    </div>
-                </div>
-            </div>
+            <a href="#services" class="cta-button">Explore Services</a>
         </div>
     </section>
 
@@ -172,73 +111,6 @@
         </div>
     </section>
 
-    <section id="portfolio" class="portfolio">
-        <div class="container">
-            <h2 data-aos="fade-up">Portfolio</h2>
-            <div class="portfolio-filters" data-aos="fade-up">
-                <button class="filter-btn active" data-filter="all">All</button>
-                <button class="filter-btn" data-filter="digital">Digital Marketing</button>
-                <button class="filter-btn" data-filter="design">Design</button>
-                <button class="filter-btn" data-filter="development">Development</button>
-            </div>
-            <div class="portfolio-grid">
-                <!-- Add your portfolio items here -->
-                <div class="portfolio-item digital" data-aos="fade-up">
-                    <img src="assets/images/portfolio-placeholder-1.jpg" alt="Project 1">
-                    <div class="portfolio-info">
-                        <h3>Social Media Campaign</h3>
-                        <p>Digital Marketing</p>
-                    </div>
-                </div>
-                <!-- Add more portfolio items as needed -->
-            </div>
-        </div>
-    </section>
-
-    <section id="testimonials" class="testimonials">
-        <div class="container">
-            <h2 data-aos="fade-up">What Clients Say</h2>
-            <div class="testimonials-slider">
-                <div class="testimonial" data-aos="fade-up">
-                    <div class="testimonial-content">
-                        <p>"Working with Roland was an absolute pleasure. His expertise in digital marketing helped our business grow significantly."</p>
-                        <div class="client-info">
-                            <img src="assets/images/testimonial-placeholder-1.jpg" alt="Client 1">
-                            <div>
-                                <h4>John Doe</h4>
-                                <p>CEO, Tech Company</p>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <!-- Add more testimonials as needed -->
-            </div>
-        </div>
-    </section>
-
-    <section id="blog" class="blog">
-        <div class="container">
-            <h2 data-aos="fade-up">Latest Insights</h2>
-            <div class="blog-grid">
-                <article class="blog-post" data-aos="fade-up">
-                    <div class="blog-image">
-                        <img src="assets/images/blog-placeholder-1.jpg" alt="Blog Post 1">
-                    </div>
-                    <div class="blog-content">
-                        <div class="blog-meta">
-                            <span><i class="far fa-calendar"></i> Jan 15, 2024</span>
-                            <span><i class="far fa-folder"></i> Digital Marketing</span>
-                        </div>
-                        <h3>The Future of Digital Marketing in 2024</h3>
-                        <p>Explore the latest trends and innovations shaping the digital marketing landscape...</p>
-                        <a href="#" class="read-more">Read More</a>
-                    </div>
-                </article>
-                <!-- Add more blog posts as needed -->
-            </div>
-        </div>
-    </section>
-
     <section id="contact" class="contact">
         <h2>Get In Touch</h2>
         <div class="contact-container">
@@ -260,18 +132,14 @@
     <footer>
         <div class="footer-content">
             <div class="social-links">
-                <a href="#" class="social-link"><i class="fab fa-linkedin"></i></a>
-                <a href="#" class="social-link"><i class="fab fa-twitter"></i></a>
-                <a href="#" class="social-link"><i class="fab fa-github"></i></a>
+                <a href="https://www.linkedin.com/in/roland-f-ganafa-68786412b/?originalSubdomain=ug" class="social-link"><i class="fab fa-linkedin"></i></a>
+                <a href="https://x.com/ganafaR?t=zkbPQ0GdzDBIdxfHB6Aaig&s=09" class="social-link"><i class="fab fa-twitter"></i></a>
+                <a href="https://github.com/Roland-Ganafa" class="social-link"><i class="fab fa-github"></i></a>
             </div>
             <p>&copy; 2024 Ganafa Roland. All rights reserved.</p>
         </div>
     </footer>
 
     <script src="script.js"></script>
-    <script src="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.js"></script>
-    <script>
-        AOS.init();
-    </script>
 </body>
 </html>
